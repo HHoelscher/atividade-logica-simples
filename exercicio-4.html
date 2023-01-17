@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 3</title>
+</head>
+<body>
+    
+
+    <script>
+        /*
+    4. Uma revendedora de carros usados paga a seus funcionários
+    vendedores um salário fixo por mês, mais uma comissão também
+    fixa para cada carro vendido e mais 5% do valor das vendas por ele
+    efetuadas. Escrever um algoritmo que leia o número de carros por
+    ele vendidos, o valor total de suas vendas, o salário fixo e o valor que
+    ele recebe por carro vendido. Calcule e escreva o salário final do
+    vendedor.
+
+        salario = 2000;
+        comissaoF = 200 por carro
+        comissaoV = 5% de 200000;
+        carrosVendidos = 10;
+        valorTotal = 200000;
+
+        
+        ler cada variável
+
+        Definir o salário final do vendedor
+
+        */
+
+        const salarioFixo = 2000;
+        console.log(`O salário fixo do vendedor é de ${salarioFixo}`)
+        const carrosVendidos = 10;
+        console.log(`A quantidade de carros vendidos pelo vendedor: ${carrosVendidos} carro(s)`)
+        const comissaoF = 200 * carrosVendidos;
+        console.log(`A comissão fixa do vendedor de acordo com os carros vendidos: ${comissaoF}`)
+        const valorTotal = 200000;
+        console.log(`O valor total dos carros vendidos é de: ${valorTotal}`)
+        const comissaoV = 0.05 * valorTotal;
+        console.log(`A comissao de 5% de acordo com os carros vendidos: ${comissaoV}`)
+
+        const salarioFinal = salarioFixo + comissaoF + comissaoV;
+        console.log(`O valor referente ao salário final do vendedor é de ${salarioFinal}`)
+
+
+
+        
+    </script>
+</body>
+</html>
